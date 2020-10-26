@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact - R.E.M. Roundup</title>
 </head>
 <body>
     <header>
         <h1>Blake Kaufman's R.E.M. Roundup</h1>
-        <p>Album reviews, rankings, and more!</p>
+        <p id = "site-desc">Album reviews, rankings, and more!</p>
 
     </header>
     <nav>
@@ -25,11 +26,11 @@
             <label>Name:
                 <input type = "text">
             </label>
-            <br>
+
             <label>Email:
                 <input type = "email">
             </label>
-            <br>
+
             <label>Reason for contact:
                 <select>
                     <option>Comment</option>
@@ -37,16 +38,16 @@
                     <option>Review</option>
                 </select>
             </label>
-            <br>
+
             <label>
-                <textarea>Additional comments</textarea>
+                <textarea cols = 40 rows= 6>Additional comments</textarea>
             </label>
         </form>
         <button>Submit</button>
     </section>
 
     <footer>
-        <p>Copyright 2020 by Blake Kaufman</p>
+        <p id = "copyright-text">Copyright 2020 by Blake Kaufman</p>
     </footer>
 </body>
 </html>
