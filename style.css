@@ -91,3 +91,21 @@ a[href]:hover {
     font-size: small;
     padding-top: 20px;
 }
+
+/* Media Queries */
+@media (max-width: 400px) {
+    body {
+        margin-right: 40px;
+    }
+
+    .album-cover {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-height: 400px) {
+    #page-top {
+        position: static;
+    }
+}
